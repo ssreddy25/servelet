@@ -1,0 +1,24 @@
+package stringproblems;
+
+import java.util.Scanner;
+
+public class SubStringComparasation {
+
+	
+	public static void main(String[] args) {
+		
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the string ");
+		
+		String s=sc.next();
+		System.out.println("enter the substring length");
+		
+		int n=sc.nextInt();
+		
+		String out=comparesationString(s,n);
+		
+		System.out.println(out);
+
+	}
+
+}
